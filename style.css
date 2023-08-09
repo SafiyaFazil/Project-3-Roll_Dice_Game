@@ -1,0 +1,60 @@
+/* .flex-container{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;   
+}
+
+#Player-1:hover, #Player-1:active{
+    background: rgb(97, 87, 87);
+}
+
+#Player-2:hover, #Player-2:active{
+    background: rgb(97, 87, 87);
+} */
+
+
+.game{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+.player{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+#rollBtn1:hover{
+    background: rgb(97, 87, 87);
+}
+
+#rollBtn2:hover{
+    background: rgb(97, 87, 87);
+}
+
+
+
+.result{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+    border-radius: 5px;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
