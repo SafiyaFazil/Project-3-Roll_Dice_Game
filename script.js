@@ -1,5 +1,3 @@
-
-    
 let score1 = 0;
 let score2 = 0;
 
@@ -11,7 +9,7 @@ const resetBtn = document.getElementById("resetBtn");
 function rollDice1() {
   const roll = Math.floor(Math.random() * 6) + 1;
   dice.src = `Images/dice${roll}.png`;
-
+  document.getElementById("player").innerText = `Player 1 to Play`;
   document.getElementById("result").innerText = `Player 1 rolled ${roll}`;
   score1 += roll;
   document.getElementById("score1").innerText = score1;
@@ -30,7 +28,7 @@ function rollDice1() {
 function rollDice2() {
   const roll = Math.floor(Math.random() * 6) + 1;
   dice.src = `Images/dice${roll}.png`;
-
+  document.getElementById("player").innerText = `Player 2 to Play`;
   document.getElementById("result").innerText = `Player 2 rolled ${roll}`;
   score2 += roll;
   document.getElementById("score2").innerText = score2;
